@@ -38,16 +38,47 @@ nav {
 .hero {
     display: flex;
     color: #F9FAF8;
+    margin: 100px 0;
+    gap: 50px;
+}
+
+.heroText {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .hero img {
-    width: 200px;
+    width: 50%;
 }
 
 button {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+button.white{
+    border: 1px solid #F9FAF8;
 }
 
 .info {
@@ -77,8 +108,8 @@ button {
 }
 
 .item img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    border: 3px solid #3882F6;
 }
 
 .quote {
